@@ -10,11 +10,7 @@ The motivation behind our project is clear: current disease detection methods in
 The goal of our project is to transform agricultural practices. With our machine learning tool, farmers can quickly identify and address crop diseases, saving time and reducing economic losses. This not only benefits individual farmers but also contributes to the broader goal of ensuring food security and sustainability in the agricultural sector.
 
 ## Methods
-Some image preprocessing techniques we decided on are cv2.resize, to ensure image dimensions uniformity; cv2.sift_create, to extract feature descriptors from images; and grayscale conversion (cv2.cvtColor), to eliminate color channels for the models to focus on structure as opposed to color.
-
-We thought of two supervised models: Convolutional Neural Networks—which can recognize intricate patterns and features in images through convolution layers, and Support Vector Machines—which can find accurate hyperplanes that separate the high-dimensional feature space built using SIFT feature descriptors.
-
-Unsupervised model: K-means Clustering - divides image sets into clusters based on vector similarity instead of labels. This can be extremely useful for classification after assigning labels to the clusters.
+For this midterm, we implemented a kmeans model
 
 ## Metrics 
 Some quantitative metrics for the Convolutional Neural Network would be accuracy (% of correctly classified images), precision (proportion of true positives), recall (proportion of true positives among true positives), F1 score (harmonic mean of precision and recall), and the loss function (cross-entropy loss in training). 
