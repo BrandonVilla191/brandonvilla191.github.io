@@ -1,7 +1,6 @@
-# CS 7641 Spring 2024 Project
+# Links
 - [GitHub](https://github.gatech.edu/oupadhyay3/7641-project)
 
 
 - [Proposal](README.md)
-- Project 2
-- Project 3
+- [Midterm](midterm.md)
