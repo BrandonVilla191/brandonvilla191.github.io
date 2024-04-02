@@ -36,13 +36,13 @@ The CNN should accurately distinguish between healthy and diseased crops, with m
 [(link to gantt chart)](https://gtvault-my.sharepoint.com/:x:/g/personal/jpurkar3_gatech_edu/EZ0NvVTVG0xOvP2TG49LMQ0Blx8_oc7quM3DplCroAo2sw)
 
 ## Contribution Table
-| Member        | Task                                                |
-| ------------- | --------------------------------------------------- |
-| Brandon       | Video Presentation                                  |
-| Ojasw         | Potential Result Metrics, GitHub Repo & Pages       |
-| Janhavi       | Problem Statement, Gantt Chart, Contribution Table  |
-| Samarth       | Methods                                             |
-| Aditya        | Introduction/Background                             |
+| Member        | Task                                                  |
+| ------------- | ----------------------------------------------------- |
+| Brandon       | Github page update and repo descriptions              |
+| Ojasw         | Model coding and training                             |
+| Janhavi       | Problem Statement, background, Gantt Chart            |
+| Samarth       | Data preprocessing                                    |
+| Aditya        | Quantitative metrics,results evaluation and analysis  |
 
 ## References
 [1] Ramcharan, A., Baranowski, K., McCloskey, P., Ahmed, B., Legg, J., & Hughes, D. P. (2017). Deep Learning for Image-Based Cassava Disease Detection. Frontiers in plant science, 8, 1852. https://doi.org/10.3389/fpls.2017.01852
