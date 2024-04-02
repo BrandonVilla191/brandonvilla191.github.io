@@ -13,11 +13,9 @@ The motivation behind our project is clear: current disease detection methods in
 The goal of our project is to transform agricultural practices. With our machine learning tool, farmers can quickly identify and address crop diseases, saving time and reducing economic losses. This not only benefits individual farmers but also contributes to the broader goal of ensuring food security and sustainability in the agricultural sector.
 
 ## Methods
-For this midterm, we implemented a kmeans model
+For this midterm, we implemented a kmeans model using HOG descriptors and raw image data. This allowed the data to capture a broad spectrum of features that work to improve the accuracy of the clustering based on health conditions. We used HOG descriptors because they capture the texture and edge information, which is effective in outlining distinctive patterns on the image, such as patterns with disease in corn leaves. This, combined with the raw image data which captures the full range of visual information, including color and variatinos across the image, work to create several features that may be indicitive of disease. After taking this image data, PCA is applied to reduce the dimensionality of the feature space from potentially thousands of dimensions to only a few hundred. We do this to improve model training efficiency and only retain the most imformative features of the datase. 
 
-## Metrics 
-For K-Means Clustering, the silhouette coefficient (similarity within clusters compared to between clusters) and the Calinski-Harabasz index (separation between clusters) will be used as metrics.
-
+We then used K-means clustering to group the corn images into four predefined clusters, each of which corresponded to a specific condition affecting corn health. We decided to use Kmeans because it offers a way to separate the dataset into multiple distinct groups based on feature similarity, and it can be computationally effecient after a PCA reduction. This algorithm works well on large datasets, and the results are easy to validate. Furthermore, because this model is unsupervised, it is very useful for finding classification even after assigning labels. Essentially, this model divides the image sets into clusters based on vector similarity, which is useful for finding unique patterns that could lead to disease.
 
 ### Results and Discussion
 - Achieve high accuracy (>90%) in classifying.
