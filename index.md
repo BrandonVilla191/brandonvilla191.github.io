@@ -6,7 +6,7 @@ Test
 
 ## My Projects
 
-- [Link Text](README.md)
+- [Proposal](README.md)
 - Project 2
 - Project 3
 
