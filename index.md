@@ -1,15 +1,7 @@
-# Welcome to My GitHub Page
+# CS 7641 Spring 2024 Project
+- [GitHub](https://github.gatech.edu/oupadhyay3/7641-project)
 
-## About Me
-
-Test
-
-## My Projects
 
 - [Proposal](README.md)
 - Project 2
 - Project 3
-
-## Contact Me
-
-You can reach me at my-email@example.com.
